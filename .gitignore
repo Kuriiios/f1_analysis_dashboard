@@ -1,14 +1,15 @@
 # Data
-/data/
 /cache_folder/
 /reports/
 /csv/
 /figures/
 login.txt
 f1_analysis_env
+
 # Mac OS-specific storage files
 .DS_Store
 .cache/
+
 # vim
 *.swp
 *.swo
