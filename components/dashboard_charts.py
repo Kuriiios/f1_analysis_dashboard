@@ -11,7 +11,6 @@ import fastf1.api
 import matplotlib.pyplot as plt
 from datetime import timedelta
 import utils.format as fmt
-import data.fetch_data as dt
 
 def get_last_laps(session,  session_laps, race_session, Lap_Number, quali, height):
     
