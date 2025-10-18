@@ -1,4 +1,4 @@
-🏁 F1 2025 Race Data Dashboard - README
+🏁 F1 Analysis Race Data Dashboard
 
 This repository hosts the code for an interactive Formula 1 Data Analysis Dashboard built using Streamlit and powered by the fastf1 library. The project's primary goal is to provide a real-time (or post-session) analytical view of F1 sessions, with a strong focus on the 2025 season, enabling detailed teammate performance comparison and race strategy analysis.
 
@@ -6,11 +6,13 @@ This repository hosts the code for an interactive Formula 1 Data Analysis Dashbo
 
 This is currently a foundational prototype for a much larger project.
 
-The code presented here is the first major iteration and is under active, heavy development. The primary focus is on data accuracy, establishing the core data ingestion and transformation logic, and validating the visualization components.
+The code presented here is the first major iteration. 
+
+✅ Prototype Status: Idea Validated
+
+This project has successfully completed its prototype phase, confirming the workability and utility of the core concept. The initial results are highly promising, validating the viability of the approach.
 
     Non-Final State: Expect frequent changes, refactoring, and potentially incomplete features or styling.
-
-    Focus: Prioritizing backend integrity (data fetching/cleaning with fastf1) over final front-end polish.
 
 🚀 Getting Started
 
@@ -26,27 +28,11 @@ Prerequisites
 
     NumPy
 
-    Matplotlib/Seaborn (for chart components, assumed from component names)
+    Matplotlib/Seaborn  
 
-Installation
-
-    Clone the repository (assuming this code is the core of a larger project):
-    Bash
-
-git clone [repository-url]
-cd [repository-name]
-
-Install dependencies:
-Bash
-
-pip install -r requirements.txt # (Assuming you have a requirements.txt file)
-# or install the core libraries:
-pip install streamlit fastf1 pandas numpy
-
-Run the Streamlit App:
-Bash
-
-    streamlit run main_app.py # (Assuming the main file is named main_app.py based on imports)
+Take a look at the Streamlit App:
+    
+    https://f1-analysis-dashboard.streamlit.app/
 
 📊 Dashboard Features
 
@@ -106,22 +92,6 @@ Key Data Handling Functionality
         Tyre Colors: Applies background colors to match tyre compounds (Soft-Red, Medium-Yellow, Hard-White, etc.).
 
     Time Formatting: Custom functions (microseconds_to_mmss, seconds_to_mmss) ensure lap times are displayed in the standard M:SS format.
-
-⚠️ Project Status
-
-This project is under active development.
-
-The primary focus is currently on data accuracy, backend logic, and the creation of core visualizations.
-
-Next Steps & Planned Enhancements:
-
-    Full implementation and styling of all components within dashboard_charts and race_recap_charts.
-
-    Introduction of a dedicated Driver Comparison page/dashboard.
-
-    Major UI/UX improvements, including integrating team logos, smoother data loading, and interactive chart filtering.
-
-    More in-depth telemetry analysis (e.g., G-force, steering angle plots).
 
 👨‍💻 Author
 
